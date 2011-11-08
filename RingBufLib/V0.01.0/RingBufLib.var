@@ -1,0 +1,15 @@
+(********************************************************************
+ * COPYRIGHT -- Automation Resources Group
+ ********************************************************************
+ * Library: RingBufLib
+ * File: RingBufLib.var
+ * Author: David Blackburn
+ * Created: November 04, 2011
+ ********************************************************************
+ * Constants of library RingBufLib
+ ********************************************************************)
+VAR CONSTANT
+	RNGBUF_NEWEST : UDINT := 0; (*Min UDINT value to read the newest entries in the buffer*)
+	RNGBUF_OLDEST : UDINT := 4294967295; (*Max UDINT value to read the oldest entries in the buffer*)
+	RNGBUF_ALL : UDINT := 4294967295; (*Max UDINT value to read all entries in the buffer*)
+END_VAR

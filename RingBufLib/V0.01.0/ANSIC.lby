@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0.81.27 SP05?>
+<Library Version="0.01.0" HeaderFileName="RingBufLib.h" Description="Ring buffer library" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>RevisionHistory.txt</File>
+    <File Description="Exported data types">RingBufLib.typ</File>
+    <File Description="Exported constants">RingBufLib.var</File>
+    <File Description="Exported functions and function blocks">RingBufLib.fun</File>
+    <File Description="Exported data types">RngBuf_Err.typ</File>
+    <File Description="Exported data types">RingBuffer.typ</File>
+    <File Description="Initialize the ring buffer. MUST BE CALLED IN INIT ROUTINE.">rngbuf_Init.c</File>
+    <File Description="Reset the ring buffer to the newly initialized state">rngbuf_Reset.c</File>
+    <File Description="Add an entry to the ring buffer.">rngbuf_Write.c</File>
+    <File Description="Read elements from the ring buffer">rngbuf_Read.c</File>
+  </Files>
+  <Dependencies>
+    <Dependency ObjectName="sys_lib" />
+  </Dependencies>
+</Library>
